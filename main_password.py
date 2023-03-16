@@ -10,8 +10,9 @@ if not isinstance(option, str):
     print("Your input is invalid. Please re-enter a valid input.")
 else:
     result = generate_password()
-    print("\n")
+    print("-----------------------------\n")
     print("Your new generated " +option+ " password is: " + result) 
+    print("\n-----------------------------")
     quit()
    
     
