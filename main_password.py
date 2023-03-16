@@ -13,6 +13,8 @@ else:
     print("-----------------------------\n")
     print("Your new generated " +option+ " password is: " + result) 
     print("\n-----------------------------")
+    with open('generated_password.txt', 'a+') as f:
+        f.writelines("Your new generated " +option+ " password is: " +result+ "\n")
     quit()
    
     

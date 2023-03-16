@@ -19,7 +19,7 @@ def generate_password():
     random.shuffle(password_box)
     
     password_box = "".join(password_box)
-    
+        
     return password_box
     
         
